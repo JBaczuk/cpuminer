@@ -10,6 +10,7 @@ Dependencies:
 	libcurl			http://curl.haxx.se/libcurl/
 	jansson			http://www.digip.org/jansson/
 		(jansson is included in-tree)
+	automake (ubuntu: `sudo apt-get install automake autotools-dev pkg-config`)	
 
 Basic *nix build instructions:
 	./autogen.sh	# only needed if building from git repo
